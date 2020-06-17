@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fortsell - магазин эксклюзивов</title>
+	<link rel="shortcut icon" href="img/favicon.png">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+
+	<script type="text/javascript">
+	  VK.init({apiId: 7486406, onlyWidgets: true});
+	</script>
+
+	<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+
+<script>
+	function slider( menu )
+	{
+		y = $("#menu" +menu).position().top;
+		$('html,body').animate( {scrollTop:y}, 1000, 'swing', function() {  } );
+	}
+</script>
+
+</head>
+<body link="#633991" alink="red" vlink="#633991">
+	
+<!--  ПРИВЕТСТВИЕ -->
+<header>
+	
+	<div class="first-line">
+		Добро пожаловать в 
+	</div>
+
+	<div class="second-line">
+		МАГАЗИН FORTSELL
+	</div>
+
+	<div class="third-line">
+		Здесь вы можете купить эксклюзивные наборы или<br>аккаунты из Fortnite. 
+	</div>
+
+</header>
+
+<!-- ИНФОРМАЦИОННЫЙ РАЗДЕЛ -->
+<article id="menu2">
+
+	<img src="img/Ikonik.png" class="ikonik">	
+
+	<p class="lines">
+		<b>&#9899; Выберите товар</b>
+		<p class="lines-2">Выберите товар, который желаете приобрести 
+		и пришлите его название мне на почту <a href="mailto:oplatacops@gmail.com">oplatacops@gmail.com</a>
+		</p>
+	</p>
+
+	<p class="lines">
+		<b>&#9899; Оплата</b>
+		<p class="lines-2">Я высылаю вам номер кошелька. Вы производите оплату через удобную вам 
+		онлайн-систему и указываете свое имя в комментарии</p>
+	</p>
+
+	<p class="lines">
+		<b>&#9899; Получение</b>
+		<p class="lines-2">После того как вы произвели оплату, на указанный 
+		вами e-mail придёт код, который нужно активировать 
+		на официальном сайте <a href="http://www.epicgames.com/account/code-redemption" target="_blank">epicgames.com</a>, <a href="https://www.playstation.com/" target="_blank">playstation.com</a>,
+		<a href="https://redeem.microsoft.com/" target="_blank">microsoft.com</a> (смотря какой набор вы приобрели)</p>
+	</p>
+
+</article>
+
+
+<!-- КАРТОЧКИ ТОВАРОВ -->
+<div class="cards" id="menu3">
+	
+
+	
+
+
+	<div class="flex-box">
+
+		<!-- КАРТОЧКА 1 -->
+		<div class="card-box">
+
+
+			<img src="img/arahnid.jpg" width="350" class="card-image">
+			<h1 class="card-name">
+				Ядовитый Арахнид
+			</h1>
+
+			<h2 class="card-price">
+				Цена: <s><i>1200 ₽</s></i> 1000 ₽
+			</h2>
+
+				<div>
+
+					<h3 class="card-nabor">
+						В набор входит:
+					</h3>
+
+					<h3 class="card-options">
+						- Скин "Ядовитый Арахнид" <br>
+						- Рюкзак <br>
+						- 2000 В-Баксов
+					</h3>
+
+				</div>
+
+
+				<input type="button" value="Купить" class="card-button" onclick="slider(2)">
+
+
+		</div>
+
+
+		<!-- КАРТОЧКА 2 -->
+		<div class="card-box">
+
+
+			<img src="img/wonder.png" width="350" class="card-image">
+			<h1 class="card-name">
+				Wonder
+			</h1>
+
+			<h2 class="card-price">
+				Цена: <s><i>1200 ₽</s></i> 1000 ₽
+			</h2>
+
+				<div>
+
+					<h3 class="card-nabor">
+						В набор входит:
+					</h3>
+
+					<h3 class="card-options">
+						- Скин "Wonder" <br> <br> <br>
+						
+					</h3>
+
+				</div>
+
+
+				<input type="button" value="Купить" class="card-button" onclick="slider(2)">
+
+
+		</div>
+
+	</div>
+
+
+
+	<div class="flex-box">
+
+		<!-- КАРТОЧКА 3 -->
+		<div class="card-box">
+
+
+			<img src="img/psyho.jpg" width="350" class="card-image">
+			<h1 class="card-name">
+				Psycho
+			</h1>
+
+			<h2 class="card-price">
+				Цена: <s><i>1200 ₽</s></i> 1000 ₽
+			</h2>
+
+				<div>
+
+					<h3 class="card-nabor">
+						В набор входит:
+					</h3>
+
+					<h3 class="card-options">
+						- Скин "Psycho" <br>
+						- Рюкзак "Claptrap" <br>
+						- Кирка "Psycho buzz axes"
+					</h3>
+
+				</div>
+
+
+				<input type="button" value="Купить" class="card-button" onclick="slider(2)">
+
+
+		</div>
+
+
+		<!-- КАРТОЧКА 4 -->
+		<div class="card-box">
+
+
+			<img src="img/versa.png" width="350" class="card-image">
+			<h1 class="card-name">
+				Neo Versa
+			</h1>
+
+			<h2 class="card-price">
+				Цена: <s><i>1200 ₽</s></i> 1000 ₽
+			</h2>
+
+				<div>
+
+					<h3 class="card-nabor">
+						В набор входит:
+					</h3>
+
+					<h3 class="card-options">
+						- Скин "Neo Versa" <br> 
+						- Рюкзак "Дешифратор будущего"<br>
+						- 2000 V-bucks<br>
+						
+					</h3>
+
+				</div>
+
+			
+				<input type="button" value="Купить" class="card-button" onclick="slider(2)">
+
+
+		</div>
+
+	</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<!--МЕНЮ-->
+<div class="menu">
+	
+	
+
+	<div class="menu-button" onclick="slider(2)">
+		Как купить?
+	</div>
+
+	<div class="menu-button" onclick="slider(3)">
+		Товары
+	</div>
+
+	<div class="menu-button" onclick="slider(4)">
+		Отзывы
+	</div>
+
+	<div class="menu-button" onclick="slider(5)">
+		Свяжитесь с нами
+	</div>
+
+</div>
+
+
+
+
+<!--ОТЗЫВЫ-->
+<div class="reviews" id="menu4">
+	
+	<div id="vk_comments"></div>
+	<script type="text/javascript">
+	VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
+	</script>
+
+</div>
+
+
+
+
+
+<!--ПОДВАЛ-->
+<footer id="menu5">
+
+
+<div class="contact">
+	<a href="mailto:oplatacops@gmail.com" target="_blank"><img src="img/mail_icon.png">
+	<div>
+	oplatacops@gmail.com</a></div>
+
+
+</div>
+
+<div class="contact">
+	<a href="https://vk.com/batago2000" target="_blank"><img src="img/vk_icon.png" >
+	<div>https://vk.com/batago2000</a></div>
+
+
+</div>
+
+<div class="contact">
+	<a href="https://www.instagram.com/ytbatago/" target="_blank"><img src="img/instagram_icon.png">
+	<div>https://www.instagram.com/ytbatago/</a></div>
+
+
+</div>
+
+
+
+
+</footer>
+
+
+
+
+</body>
+</html>
